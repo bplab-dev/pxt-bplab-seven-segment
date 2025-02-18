@@ -3,9 +3,9 @@
  */
 //% weight=1 color=#50A820 icon="\uf0ad" block="7-Segment"
 namespace TM1637 {
-    let TM1637_CMD1 = 0x40;
-    let TM1637_CMD2 = 0xC0;
-    let TM1637_CMD3 = 0x80;
+    let TM1637_CMD1 = 0x40; // Transfer data in auto-increase mode
+    let TM1637_CMD2 = 0xC0; // Write data to a specific place (address)
+    let TM1637_CMD3 = 0x80; // Display ON/OFF and Brightness Settings
     let _SEGMENTS = [0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71];
 
     /**
@@ -92,7 +92,7 @@ namespace TM1637 {
         }
 
         /**
-         * show a number in given position. 
+         * show a number in given position.
          * @param num number will show, eg: 5
          * @param bit the position of the LED, eg: 0
          */
@@ -105,7 +105,7 @@ namespace TM1637 {
         }
 
         /**
-          * show a number. 
+          * show a number.
           * @param num is a number, eg: 0
           */
         //% blockId="TM1637_shownum" block="%tm|show number %num"
@@ -124,7 +124,7 @@ namespace TM1637 {
         }
 
         /**
-          * show a hex number. 
+          * show a hex number.
           * @param num is a hex number, eg: 0
           */
         //% blockId="TM1637_showhex" block="%tm|show hex number %num"
@@ -143,7 +143,7 @@ namespace TM1637 {
         }
 
         /**
-         * show or hide dot point. 
+         * show or hide dot point.
          * @param bit is the position, eg: 1
          * @param show is show/hide dp, eg: true
          */
@@ -157,7 +157,7 @@ namespace TM1637 {
         }
 
         /**
-         * clear LED. 
+         * clear LED.
          */
         //% blockId="TM1637_clear" block="clear %tm"
         //% weight=80 blockGap=8
@@ -170,7 +170,7 @@ namespace TM1637 {
         }
 
         /**
-         * turn on LED. 
+         * turn on LED.
          */
         //% blockId="TM1637_on" block="turn on %tm"
         //% weight=86 blockGap=8
@@ -182,7 +182,7 @@ namespace TM1637 {
         }
 
         /**
-         * turn off LED. 
+         * turn off LED.
          */
         //% blockId="TM1637_off" block="turn off %tm"
         //% weight=85 blockGap=8
@@ -203,6 +203,8 @@ namespace TM1637 {
      */
     //% weight=200 blockGap=8
     //% blockId="TM1637_create" block="CLK %clk|DIO %dio|intensity %intensity|LED count %count"
+    //% intensity.min=0 intensity.max=7
+    //% count.min=1 count.max=4
     export function create(clk: DigitalPin, dio: DigitalPin, intensity: number, count: number): TM1637LEDs {
         let tm = new TM1637LEDs();
         tm.clk = clk;
