@@ -8,7 +8,9 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "_locales/ko/seven-segment-bplab-jsdoc-strings.json",
+        "_locales/en/seven-segment-bplab-strings.json"
     ],
     "testFiles": [
         "test.ts"

@@ -1,0 +1,13 @@
+{
+  "TM1637.TM1637LEDs.clear|block": "%tm 지우기",
+  "TM1637.TM1637LEDs.intensity|block": "%tm 밝기 %val",
+  "TM1637.TM1637LEDs.off|block": "%tm 끄기",
+  "TM1637.TM1637LEDs.on|block": "%tm 켜기",
+  "TM1637.TM1637LEDs.showDP|block": "%tm 콜론(:) 표시 여부 %show",
+  "TM1637.TM1637LEDs.showHex|block": "%tm|hex 값 %num 표시",
+  "TM1637.TM1637LEDs.showNumber|block": "%tm|숫자 값 %num 표시",
+  "TM1637.TM1637LEDs.showbit|block": "%tm|숫자 %num 를 %bit 위치에 표시",
+  "TM1637.create|block": "CLK %clk|DIO %dio|밝기 %intensity|LED 개수 %count",
+  "TM1637|block": "7세그먼트",
+  "{id:category}TM1637": "7세그먼트"
+}
