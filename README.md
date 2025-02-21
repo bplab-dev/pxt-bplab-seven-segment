@@ -13,6 +13,7 @@ This extension allows you to control TM1637 based 4-digit 7-segment LED displays
 - Show/hide decimal points
 - Simple on/off control
 - Can be registered as a MakeCode extension for easy use
+- Support for Korean
 
 ## Blocks
 
@@ -172,6 +173,22 @@ off()
   display.on()  // Turns display on
   display.off() // Turns display off
   ```
+
+## 📜 License
+
+MIT License
+
+## 💡 About BPLab
+
+BPLab is a specialized company that provides coding education that anyone can easily learn. We provide in-person and online coding education for children, teens, adults, institutions, organizations, small groups, and schools in Korea in various fields such as IoT, artificial intelligence, micro:bit and Arduino.
+
+We are also leading the way in developing and distributing coding education kits that allow learners to build, program, and experience the principles of coding. These kits utilize microcontrollers such as Arduino and micro:bit, as well as various sensors. This micro:bit extension is available for use in courses taught by BPLab.
+
+Visit our websites:
+
+- Korea: https://bplab.kr
+- Global: https://bplab-us.com
+- Japan: https://bplab-jp.com
 
 ---
 
