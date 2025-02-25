@@ -1,7 +1,7 @@
 {
     "name": "seven-segment-bplab",
     "version": "0.0.5",
-    "description": "",
+    "description": "This extension is made by BPLab to allow you to control the TM1637 7-segment LED display with micro:bit.",
     "dependencies": {
         "core": "*"
     },
@@ -10,7 +10,7 @@
         "main.ts",
         "README.md",
         "_locales/ko/seven-segment-bplab-jsdoc-strings.json",
-        "_locales/en/seven-segment-bplab-strings.json"
+        "_locales/ko/seven-segment-bplab-strings.json"
     ],
     "testFiles": [
         "test.ts"

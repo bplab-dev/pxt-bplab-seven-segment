@@ -69,8 +69,8 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  TM1637.showNumber(1234)
-  TM1637.showNumber(-123)
+  display.showNumber(1234)
+  display.showNumber(-123)
   ```
 
 ### 3. Show Hex Number Block
