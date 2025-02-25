@@ -17,8 +17,8 @@
   "TM1637.TM1637LEDs.showbit|param|bit": "the position of the LED, eg: 0",
   "TM1637.TM1637LEDs.showbit|param|num": "number will show, eg: 5",
   "TM1637.create": "create a TM1637 object.",
-  "TM1637.create|param|clk": "the CLK pin for TM1637, eg: DigitalPin.P1",
+  "TM1637.create|param|clk": "the CLK pin for TM1637, eg: DigitalPin.P12",
   "TM1637.create|param|count": "the count of the LED, eg: 4",
-  "TM1637.create|param|dio": "the DIO pin for TM1637, eg: DigitalPin.P2",
+  "TM1637.create|param|dio": "the DIO pin for TM1637, eg: DigitalPin.P13",
   "TM1637.create|param|intensity": "the brightness of the LED, eg: 7"
 }

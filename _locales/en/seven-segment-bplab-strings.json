@@ -1,13 +1,13 @@
 {
   "TM1637.TM1637LEDs.clear|block": "clear %tm",
   "TM1637.TM1637LEDs.intensity|block": "%tm|set intensity %val",
-  "TM1637.TM1637LEDs.off|block": "turn off %tm",
-  "TM1637.TM1637LEDs.on|block": "turn on %tm",
+  "TM1637.TM1637LEDs.off|block": "Turn off %tm",
+  "TM1637.TM1637LEDs.on|block": "Turn on %tm",
   "TM1637.TM1637LEDs.showDP|block": "%tm|DotPoint show %show",
   "TM1637.TM1637LEDs.showHex|block": "%tm|show hex number %num",
   "TM1637.TM1637LEDs.showNumber|block": "%tm|show number %num",
   "TM1637.TM1637LEDs.showbit|block": "%tm|show digit %num |at %bit",
   "TM1637.create|block": "CLK %clk|DIO %dio|intensity %intensity|LED count %count",
   "TM1637|block": "7-Segment",
-  "{id:category}TM1637": "TM1637"
+  "{id:category}TM1637": "7-Segment"
 }
