@@ -84,7 +84,8 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  TM1637.showHex(0xABCD)
+  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  tm.showHex(0xABCD)
   ```
 
 ### 4. Show Digit Block
@@ -97,7 +98,8 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  TM1637.showbit(5, 0)
+  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  tm.showbit(5, 0)
   ```
 
 ### 5. Show Decimal Point Block
@@ -109,7 +111,8 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  TM1637.showDP(1, true)
+  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  tm.showDP(1, true)
   ```
 
 ### 6. Set Intensity Block
@@ -121,7 +124,8 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  TM1637.intensity(5)
+  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  tm.intensity(5)
   ```
 
 ### 7. Clear Display Block
@@ -133,7 +137,8 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  TM1637.clear() // Clears the display
+  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  tm.clear()
   ```
 
 ### 8. Display ON/OFF Blocks
@@ -145,8 +150,9 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  TM1637.on()
-  TM1637.off()
+  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  tm.on()
+  tm.off()
   ```
 
 ## 📜 License
