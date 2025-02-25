@@ -8,7 +8,6 @@
   "TM1637.TM1637LEDs.off": "turn off LED.",
   "TM1637.TM1637LEDs.on": "turn on LED.",
   "TM1637.TM1637LEDs.showDP": "show or hide dot point.",
-  "TM1637.TM1637LEDs.showDP|param|bit": "is the position, eg: 1",
   "TM1637.TM1637LEDs.showDP|param|show": "is show/hide dp, eg: true",
   "TM1637.TM1637LEDs.showHex": "show a hex number.",
   "TM1637.TM1637LEDs.showHex|param|num": "is a hex number, eg: 0",

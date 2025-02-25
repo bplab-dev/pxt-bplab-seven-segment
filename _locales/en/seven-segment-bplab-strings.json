@@ -3,7 +3,7 @@
   "TM1637.TM1637LEDs.intensity|block": "%tm|set intensity %val",
   "TM1637.TM1637LEDs.off|block": "turn off %tm",
   "TM1637.TM1637LEDs.on|block": "turn on %tm",
-  "TM1637.TM1637LEDs.showDP|block": "%tm|DotPoint at %bit|show %show",
+  "TM1637.TM1637LEDs.showDP|block": "%tm|DotPoint show %show",
   "TM1637.TM1637LEDs.showHex|block": "%tm|show hex number %num",
   "TM1637.TM1637LEDs.showNumber|block": "%tm|show number %num",
   "TM1637.TM1637LEDs.showbit|block": "%tm|show digit %num |at %bit",
