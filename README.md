@@ -56,7 +56,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  let display = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
   ```
 
 ### 2. Show Number Block
@@ -69,8 +69,9 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  display.showNumber(1234)
-  display.showNumber(-123)
+  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  tm.showNumber(1234)
+  tm.showNumber(-123)
   ```
 
 ### 3. Show Hex Number Block
