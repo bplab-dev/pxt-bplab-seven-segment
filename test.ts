@@ -64,12 +64,10 @@ basic.forever(function() {
     // Pass criteria: DPs visible and toggleable
     basic.showString("T6")
     display.showNumber(1234)
-    for (let pos = 0; pos < 4; pos++) {
-        display.showDP(pos, true)
-        basic.pause(500)
-        display.showDP(pos, false)
-        basic.pause(500)
-    }
+    display.showDP(true)
+    basic.pause(500)
+    display.showDP(false)
+    basic.pause(500)
 
     // Test Case 7: Display Control
     // Purpose: Test display on/off functionality

@@ -112,7 +112,7 @@ This repository can be added as an **extension** in MakeCode.
 
   ```blocks
   let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
-  tm.showDP(1, true)
+  tm.showDP(true)
   ```
 
 ### 6. Set Intensity Block
