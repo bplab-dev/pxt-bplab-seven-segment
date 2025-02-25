@@ -205,6 +205,8 @@ namespace TM1637 {
     //% blockId="TM1637_create" block="CLK %clk|DIO %dio|intensity %intensity|LED count %count"
     //% intensity.min=0 intensity.max=7
     //% count.min=1 count.max=4
+    //% clk.fieldEditor="gridpicker"
+    //% dio.fieldEditor="gridpicker"
     export function create(clk: DigitalPin, dio: DigitalPin, intensity: number, count: number): TM1637LEDs {
         let tm = new TM1637LEDs();
         tm.clk = clk;
