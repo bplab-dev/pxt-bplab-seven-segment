@@ -149,7 +149,8 @@ namespace TM1637 {
         //% blockId="TM1637_showDP" block="%tm|DotPoint show %show"
         //% weight=70 blockGap=8
         //% parts="TM1637"
-        showDP(bit: number = 1, show: boolean = true) {
+        showDP(show: boolean = true) {
+            let bit = 1
             bit = bit % this.count
             if (show) this._dat(bit, this.buf[bit] | 0x80)
             else this._dat(bit, this.buf[bit] & 0x7F)
