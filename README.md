@@ -48,15 +48,15 @@ This repository can be added as an **extension** in MakeCode.
   - Default LED count is 4 digits
 
 - 🔹 Parameters
-  - `clk`: Clock pin (default: P1)
-  - `dio`: Data pin (default: P2)
+  - `clk`: Clock pin (default: P12)
+  - `dio`: Data pin (default: P13)
   - `intensity`: Brightness level (0-7)
   - `count`: Number of digits (1-4)
 
 - ✅ Usage example
 
   ```blocks
-  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  let tm = TM1637.create(DigitalPin.P12, DigitalPin.P13, 7, 4)
   ```
 
 ### 2. Show Number Block
@@ -69,7 +69,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  let tm = TM1637.create(DigitalPin.P12, DigitalPin.P13, 7, 4)
   tm.showNumber(1234)
   tm.showNumber(-123)
   ```
@@ -84,7 +84,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  let tm = TM1637.create(DigitalPin.P12, DigitalPin.P13, 7, 4)
   tm.showHex(0xABCD)
   ```
 
@@ -98,7 +98,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  let tm = TM1637.create(DigitalPin.P12, DigitalPin.P13, 7, 4)
   tm.showbit(5, 0)
   ```
 
@@ -111,7 +111,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  let tm = TM1637.create(DigitalPin.P12, DigitalPin.P13, 7, 4)
   tm.showDP(true)
   ```
 
@@ -124,7 +124,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  let tm = TM1637.create(DigitalPin.P12, DigitalPin.P13, 7, 4)
   tm.intensity(5)
   ```
 
@@ -137,7 +137,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  let tm = TM1637.create(DigitalPin.P12, DigitalPin.P13, 7, 4)
   tm.clear()
   ```
 
@@ -150,7 +150,7 @@ This repository can be added as an **extension** in MakeCode.
 - ✅ Usage example
 
   ```blocks
-  let tm = TM1637.create(DigitalPin.P1, DigitalPin.P2, 7, 4)
+  let tm = TM1637.create(DigitalPin.P12, DigitalPin.P13, 7, 4)
   tm.on()
   tm.off()
   ```
