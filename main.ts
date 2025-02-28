@@ -1,7 +1,7 @@
 /**
  * 7-Segment(Four Digit Display)
  */
-//% weight=1 color=#50A820 icon="\uf0ad" block="7-Segment"
+//% weight=1 color=#5c68a6 icon="\uf25c" block="7-Segment"
 namespace TM1637 {
     let TM1637_CMD1 = 0x40; // Transfer data in auto-increase mode
     let TM1637_CMD2 = 0xC0; // Write data to a specific place (address)
